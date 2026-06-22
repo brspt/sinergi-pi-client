@@ -1,6 +1,6 @@
 import requests
 
-CLOUD_RUN_URL = "https://sinergi-model-api-kdju6t5z7a-et.a.run.app"
+CLOUD_RUN_URL = "https://sinergi-model-api-139741896411.asia-southeast2.run.app"
 
 _ENDPOINT = {
     ("hasil_panen", "padi"):    "/v1/panicle/infer",
