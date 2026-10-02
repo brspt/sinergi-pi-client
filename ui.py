@@ -540,7 +540,7 @@ class App:
 
         elif self.result:
             count  = self.result.get("count", 0)
-            clabel = "malai terdeteksi" if self.mode == "hasil_panen" else "HPT terdeteksi"
+            clabel = ("malai terdeteksi" if self.plant == "padi" else "polong terdeteksi") if self.mode == "hasil_panen" else "HPT terdeteksi"
             doc_id = self.result.get("doc_id", "")
 
             _card(self.screen, 24, 82, 430, 380)
